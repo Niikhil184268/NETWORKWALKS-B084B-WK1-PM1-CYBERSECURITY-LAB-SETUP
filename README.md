@@ -56,7 +56,7 @@ The VMware Library holds three machines:
 | `Metasploitable2-Linux` | Intentionally vulnerable target |
 | `SOCWindows10` | Windows machine for SOC and log-analysis practice |
 
-![VMware library and Kali VM](screenshots/1-vmware-library-kali-vm.png)
+![VMware library and Kali VM](1-vmware-library-kali-vm.png)
 
 ---
 
@@ -120,11 +120,11 @@ The Kali VM has three network adapters, each in a different mode:
 | Network Adapter 2 | NAT | Internet access through the host (updates, downloads) |
 | Network Adapter 3 | Host-only | Private network shared only with the host and other lab VMs |
 
-![VM network adapter settings](screenshots/2-vm-network-adapters.png)
+![VM network adapter settings](2-vm-network-adapters.png)
 
 Inside Kali, each adapter shows up as its own wired connection (Wired connection 1, 2 and 3):
 
-![Kali desktop with wired connections](screenshots/3-kali-desktop-wired-connections.png)
+![Kali desktop with wired connections](3-kali-desktop-wired-connections.png)
 
 ---
 
@@ -142,7 +142,7 @@ DNS:      8.8.8.8
 
 I did this through the Network Connections editor (right-click the network icon → Edit Connections).
 
-![Kali static IP settings](screenshots/4-kali-static-ip-settings.png)
+![Kali static IP settings](4-kali-static-ip-settings.png)
 
 The same thing from the terminal:
 
